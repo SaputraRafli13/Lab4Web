@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="LayoutSederhana.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <article class="contact" data-page="Kontak">
+
+            <header>
+              <h2 class="h2 article-title">Kontak</h2>
+            </header>
+    
+            <section class="mapbox" data-mapbox>
+              <figure>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.799367218486!2d107.0300399735554!3d-6.290080761563032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f00268db75f%3A0xd575676b69461f54!2sMANDALA%20JAYA%20MEBEL!5e0!3m2!1sid!2sid!4v1722928738819!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  width="400" height="300" loading="lazy"></iframe>
+              </figure>
+            </section>
+            
+            <section class="contact-form">
+    
+              <h3 class="h3 form-title">Kontak Form</h3>
+    
+              <form action="#" class="form" data-form>
+    
+                <div class="input-wrapper">
+                  <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+    
+                  <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+
+                  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+                </div>
+    
+    
+                <button class="form-btn" type="submit" disabled data-form-btn>
+                  <ion-icon name="paper-plane"></ion-icon>
+                  <span>Send Message</span>
+                </button>
+    
+              </form>
+    
+            </section>
+    
+          </article>
+    
